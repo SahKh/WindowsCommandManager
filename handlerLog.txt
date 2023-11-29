@@ -1,0 +1,140 @@
+[2023-11-27 09:44:59 - Line 128] MediaControl received command:  next
+[2023-11-27 09:44:59 - Line 140] MediaControl received unknown command.
+[2023-11-27 09:52:11 - Line 128] MediaControl received command: 
+[2023-11-27 09:52:11 - Line 140] MediaControl received unknown command.
+[2023-11-27 09:52:24 - Line 128] MediaControl received command: pause
+[2023-11-27 09:52:24 - Line 143] MediaControl successfully executed command: pause
+[2023-11-27 09:52:42 - Line 128] MediaControl received command: pause
+[2023-11-27 09:52:42 - Line 143] MediaControl successfully executed command: pause
+[2023-11-27 09:55:12 - Line 128] MediaControl received command: play
+[2023-11-27 09:55:12 - Line 143] MediaControl successfully executed command: play
+[2023-11-27 09:55:24 - Line 59] VolumeControl received command: 9
+[2023-11-27 09:55:29 - Line 59] VolumeControl received command: 100
+[2023-11-27 09:55:31 - Line 59] VolumeControl received command: 9
+[2023-11-27 09:55:33 - Line 59] VolumeControl received command: 10
+[2023-11-27 09:55:36 - Line 59] VolumeControl received command: 100
+[2023-11-27 09:55:44 - Line 128] MediaControl received command: pause
+[2023-11-27 09:55:44 - Line 143] MediaControl successfully executed command: pause
+[2023-11-27 09:55:48 - Line 128] MediaControl received command: skip
+[2023-11-27 09:55:48 - Line 140] MediaControl received unknown command.
+[2023-11-27 09:55:53 - Line 128] MediaControl received command: next
+[2023-11-27 09:55:53 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 09:58:04 - Line 128] MediaControl received command: next
+[2023-11-27 09:58:04 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 09:58:11 - Line 128] MediaControl received command: prev
+[2023-11-27 09:58:11 - Line 143] MediaControl successfully executed command: prev
+[2023-11-27 09:58:48 - Line 128] MediaControl received command: next
+[2023-11-27 09:58:48 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 09:58:50 - Line 128] MediaControl received command: next
+[2023-11-27 09:58:50 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 09:58:51 - Line 128] MediaControl received command: next
+[2023-11-27 09:58:51 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 09:58:52 - Line 128] MediaControl received command: next
+[2023-11-27 09:58:52 - Line 143] MediaControl successfully executed command: next
+[2023-11-27 10:02:06] MediaControl received command: next
+[2023-11-27 10:02:06] MediaControl successfully executed command: next
+[2023-11-27 10:02:12] MediaControl received command: next
+[2023-11-27 10:02:12] MediaControl successfully executed command: next
+[2023-11-27 10:02:17] MediaControl received command: skip
+[2023-11-27 10:02:17] MediaControl received unknown command.
+[2023-11-27 10:02:20] MediaControl received command: prev
+[2023-11-27 10:02:20] MediaControl successfully executed command: prev
+[2023-11-27 10:02:21] MediaControl received command: prev
+[2023-11-27 10:02:21] MediaControl successfully executed command: prev
+[2023-11-27 10:04:07] MediaControl received command: play
+[2023-11-27 10:04:07] MediaControl successfully executed command: play
+[2023-11-27 10:04:14] VolumeControl received command: 50
+[2023-11-27 10:06:18] MediaControl received command: next
+[2023-11-27 10:06:18] MediaControl successfully executed command: next
+[2023-11-27 10:06:20] MediaControl received command: next
+[2023-11-27 10:06:20] MediaControl successfully executed command: next
+[2023-11-27 10:06:21] MediaControl received command: next
+[2023-11-27 10:06:21] MediaControl successfully executed command: next
+[2023-11-27 10:06:31] MediaControl received command: next
+[2023-11-27 10:06:31] MediaControl successfully executed command: next
+[2023-11-27 10:06:40] VolumeControl received command: 75
+[2023-11-27 10:06:46] VolumeControl received command: 1
+[2023-11-27 10:06:50] VolumeControl received command: 2
+[2023-11-27 10:06:55] VolumeControl received command: 3
+[2023-11-27 10:06:56] VolumeControl received command: 4
+[2023-11-27 10:06:58] VolumeControl received command: 1-
+[2023-11-27 10:07:00] VolumeControl received command: 10
+[2023-11-27 10:07:04] VolumeControl received command: 25
+[2023-11-27 10:07:06] VolumeControl received command: 35
+[2023-11-27 10:07:08] VolumeControl received command: 45
+[2023-11-27 10:07:14] VolumeControl received command: 50
+[2023-11-27 10:07:19] VolumeControl received command: 86
+[2023-11-27 10:07:23] VolumeControl received command: 75
+[2023-11-27 10:10:41] MediaControl received command: next
+[2023-11-27 10:10:41] MediaControl successfully executed command: next
+[2023-11-27 10:14:47] MediaControl received command: next
+[2023-11-27 10:14:47] MediaControl successfully executed command: next
+[2023-11-27 10:14:48] MediaControl received command: next
+[2023-11-27 10:14:48] MediaControl successfully executed command: next
+[2023-11-27 10:14:49] MediaControl received command: next
+[2023-11-27 10:14:49] MediaControl successfully executed command: next
+[2023-11-27 10:16:44] MediaControl received command: next
+[2023-11-27 10:16:44] MediaControl successfully executed command: next
+[2023-11-27 10:16:48] MediaControl received command: next
+[2023-11-27 10:16:48] MediaControl successfully executed command: next
+[2023-11-27 10:16:51] MediaControl received command: next
+[2023-11-27 10:16:51] MediaControl successfully executed command: next
+[2023-11-27 10:16:53] MediaControl received command: next
+[2023-11-27 10:16:53] MediaControl successfully executed command: next
+[2023-11-27 10:16:56] MediaControl received command: next
+[2023-11-27 10:16:56] MediaControl successfully executed command: next
+[2023-11-27 10:16:59] MediaControl received command: next
+[2023-11-27 10:16:59] MediaControl successfully executed command: next
+[2023-11-27 10:17:00] MediaControl received command: next
+[2023-11-27 10:17:00] MediaControl successfully executed command: next
+[2023-11-27 10:17:03] MediaControl received command: next
+[2023-11-27 10:17:03] MediaControl successfully executed command: next
+[2023-11-27 10:17:08] MediaControl received command: prev
+[2023-11-27 10:17:08] MediaControl successfully executed command: prev
+[2023-11-27 10:17:10] MediaControl received command: prev
+[2023-11-27 10:17:10] MediaControl successfully executed command: prev
+[2023-11-27 10:45:20] VolumeControl received command: 95
+[2023-11-27 10:45:27] MediaControl received command: play
+[2023-11-27 10:45:27] MediaControl successfully executed command: play
+[2023-11-27 10:45:31] MediaControl received command: skip
+[2023-11-27 10:45:31] MediaControl received unknown command.
+[2023-11-27 10:45:35] MediaControl received command: nex
+[2023-11-27 10:45:35] MediaControl received unknown command.
+[2023-11-27 10:45:38] MediaControl received command: next
+[2023-11-27 10:45:38] MediaControl successfully executed command: next
+[2023-11-27 10:45:39] MediaControl received command: next
+[2023-11-27 10:45:39] MediaControl successfully executed command: next
+[2023-11-27 10:45:41] MediaControl received command: next
+[2023-11-27 10:45:41] MediaControl successfully executed command: next
+[2023-11-27 10:46:28] MediaControl received command: next
+[2023-11-27 10:46:28] MediaControl successfully executed command: next
+[2023-11-27 10:46:30] MediaControl received command: next
+[2023-11-27 10:46:30] MediaControl successfully executed command: next
+[2023-11-27 10:46:32] MediaControl received command: next
+[2023-11-27 10:46:32] MediaControl successfully executed command: next
+[2023-11-27 10:46:33] MediaControl received command: next
+[2023-11-27 10:46:34] MediaControl successfully executed command: next
+[2023-11-27 10:46:35] MediaControl received command: next
+[2023-11-27 10:46:35] MediaControl successfully executed command: next
+[2023-11-27 10:46:36] MediaControl received command: next
+[2023-11-27 10:46:36] MediaControl successfully executed command: next
+[2023-11-27 10:46:37] MediaControl received command: next
+[2023-11-27 10:46:37] MediaControl successfully executed command: next
+[2023-11-27 10:46:38] MediaControl received command: next
+[2023-11-27 10:46:38] MediaControl successfully executed command: next
+[2023-11-27 10:46:41] MediaControl received command: next
+[2023-11-27 10:46:41] MediaControl successfully executed command: next
+[2023-11-27 10:46:42] MediaControl received command: next
+[2023-11-27 10:46:42] MediaControl successfully executed command: next
+[2023-11-27 10:46:43] MediaControl received command: next
+[2023-11-27 10:46:43] MediaControl successfully executed command: next
+[2023-11-27 10:46:55] MediaControl received command: next
+[2023-11-27 10:46:55] MediaControl successfully executed command: next
+[2023-11-27 10:46:56] MediaControl received command: next
+[2023-11-27 10:46:56] MediaControl successfully executed command: next
+[2023-11-27 10:46:59] MediaControl received command: next
+[2023-11-27 10:46:59] MediaControl successfully executed command: next
+[2023-11-27 10:47:01] MediaControl received command: next
+[2023-11-27 10:47:01] MediaControl successfully executed command: next
+[2023-11-27 10:47:05] MediaControl received command: pause
+[2023-11-27 10:47:05] MediaControl successfully executed command: pause

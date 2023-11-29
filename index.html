@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Device Information</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Connected Devices</h1>
+    <ul id="device-list">
+        <!-- Use JavaScript to populate this list with device information -->
+    </ul>
+
+    <script>
+        // Use JavaScript to fetch and display device information
+        // Example:
+        const deviceList = document.getElementById('device-list');
+
+        // Fetch and populate device information
+        function populateDeviceList() {
+            // Replace this with your code to fetch and display device information
+            const devices = [
+                { name: 'Device 1', type: 'Bluetooth' },
+                { name: 'Device 2', type: 'Wi-Fi' },
+                // Add more devices as needed
+            ];
+
+            devices.forEach(device => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${device.name} (${device.type})`;
+                deviceList.appendChild(listItem);
+            });
+        }
+
+        // Call the function to populate the device list
+        populateDeviceList();
+    </script>
+</body>
+</html>
