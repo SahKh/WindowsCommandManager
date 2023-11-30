@@ -1,7 +1,6 @@
 #include "system_command_handler.h"
 #include <iostream>
 
-
 std::string displayMainMenu() {
     std::string choice;
     std::cout << "Select between: volume, media, shutdown, restart, sleep, or exit" << std::endl;
