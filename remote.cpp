@@ -69,7 +69,6 @@ int main() {
         // Initialize command handlers
         initCommandHandlers();
 
-        // Set up WebSocket server
         server endpoint;
         endpoint.init_asio();
 
