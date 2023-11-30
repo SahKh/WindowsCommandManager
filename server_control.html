@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control Center</title>
+
+    <style>
+        /* Style for media control buttons and playback menu */
+        .media-button {
+            background-color: #0074d9; 
+            color: #ffffff; 
+            border: none; 
+            padding: 10px 20px; 
+            margin: 5px; 
+            cursor: pointer; 
+            border-radius: 5px; 
+        }
+
+        .media-button:hover {
+            background-color: #0056b3; 
+        }
+
+        /* Style for vertical volume slider */
+        .vertical-slider {
+            writing-mode: bt-lr;
+            appearance: slider-vertical;
+            width: 20px; 
+            height: 150px;
+        }
+
+        /* Position playback menu */
+        #playbackMenu {
+            display: flex;
+            flex-direction: row; 
+            align-items: center; 
+        }
+
+        /* Position volume control */
+        #volumeControl {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Control Center</h1>
+
+    <!-- Menu Navigation -->
+    <div>
+        <button id="playbackMenuItem">Media & Volume Control</button>
+        <button id="shutdownMenuItem">Power Control</button>
+    </div>
+
+    <!-- Playback Menu (Media & Volume Control) -->
+    <div id="playbackMenu">
+        <!-- Media Control Menu -->
+        <div id="mediaMenu">
+            <h2>Media Control</h2>
+            <button id="prevButton" class="media-button">Previous</button>
+            <button id="playButton" class="media-button">Play</button>
+            <button id="pauseButton" class="media-button">Pause</button>
+            <button id="nextButton" class="media-button">Next</button>
+        </div>
+
+        <!-- Volume Control Menu -->
+        <div id="volumeControl">
+            <h2>Volume Control</h2>
+            <input type="range" id="volumeSlider" class="vertical-slider" min="0" max="100">
+        </div>
+    </div>
+
+    <!-- Shutdown Control Menu -->
+    <div id="shutdownMenu" style="display: none;">
+        <h2>Shutdown Control</h2>
+        <button id="shutdownButton">Shutdown</button>
+        <button id="restartButton">Restart</button>
+        <button id="sleepButton">Sleep</button>
+        <script>
+            document.getElementById("shutdownButton").addEventListener("click", () => {
+                if (confirm("Are you sure you want to shutdown?")) {
+                    socket.send("Shutdown shutdown");
+                }
+            });
+
+            document.getElementById("restartButton").addEventListener("click", () => {
+                if (confirm("Are you sure you want to restart?")) {
+                    socket.send("Restart restart");
+                }
+            });
+
+            document.getElementById("sleepButton").addEventListener("click", () => {
+                if (confirm("Are you sure you want to sleep?")) {
+                    socket.send("Sleep sleep");
+                }
+            });
+        </script>
+    </div>
+
+    <div id="response"></div>
+
+    <script>
+        const socket = new WebSocket("ws://67.149.157.3:9002");
+
+        socket.addEventListener("open", (event) => {
+            document.getElementById("response").innerHTML = "Connected to server.";
+        });
+
+        socket.addEventListener("message", (event) => {
+            document.getElementById("response").innerHTML = "Received reply: " + event.data;
+        });
+
+        socket.addEventListener("close", (event) => {
+            if (event.wasClean) {
+                document.getElementById("response").innerHTML = "Connection closed cleanly, code=" + event.code + ", reason=" + event.reason;
+            } else {
+                document.getElementById("response").innerHTML = "Connection died";
+            }
+        });
+
+        const volumeSlider = document.getElementById("volumeSlider");
+        volumeSlider.addEventListener("input", () => {
+            const volume = volumeSlider.value;
+            socket.send("VolumeControl " + volume);
+        });
+
+        document.getElementById("playButton").addEventListener("click", () => {
+            socket.send("MediaControl play");
+        });
+
+        document.getElementById("pauseButton").addEventListener("click", () => {
+            socket.send("MediaControl pause");
+        });
+
+        document.getElementById("nextButton").addEventListener("click", () => {
+            socket.send("MediaControl next");
+        });
+
+        document.getElementById("prevButton").addEventListener("click", () => {
+            socket.send("MediaControl prev");
+        });
+
+        const playbackMenu = document.getElementById("playbackMenu");
+        const shutdownMenu = document.getElementById("shutdownMenu");
+
+        document.getElementById("playbackMenuItem").addEventListener("click", () => {
+            playbackMenu.style.display = "block";
+            shutdownMenu.style.display = "none";
+        });
+
+        document.getElementById("shutdownMenuItem").addEventListener("click", () => {
+            playbackMenu.style.display = "none";
+            shutdownMenu.style.display = "block";
+        });
+    </script>
+</body>
+</html>
