@@ -100,7 +100,7 @@
     <div id="response"></div>
 
     <script>
-        const socket = new WebSocket("ws://67.149.157.3:9002");
+        const socket = new WebSocket("ws://localhost:9002");
 
         socket.addEventListener("open", (event) => {
             document.getElementById("response").innerHTML = "Connected to server.";
