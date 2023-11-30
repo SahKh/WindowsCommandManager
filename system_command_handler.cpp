@@ -12,7 +12,6 @@
 #include <iomanip>
 #include <cassert>
 
-
 #pragma comment(lib, "Ole32.lib")
 #pragma comment(lib, "PowrProf.lib")
 #pragma comment(lib, "Uuid.lib")
